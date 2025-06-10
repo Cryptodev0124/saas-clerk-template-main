@@ -31,7 +31,7 @@ export default function Navbar() {
                 <DropdownMenuTrigger asChild>
                   <Button
                     variant="ghost"
-                    className="relative h-8 w-8 rounded-full"
+                    className="relative h-2 w-2 rounded-full"
                   >
                     <Avatar>
                       <AvatarImage src={user.imageUrl} alt="User avatar" />
@@ -49,7 +49,7 @@ export default function Navbar() {
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => signOut()}>
-                    <LogOut className="mr-2 h-4 w-4" />
+                    <LogOut className="mr-2 h-2 w-2" />
                     <span>Sign out</span>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
